@@ -1,0 +1,10 @@
+.author {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.author .img {
+  border-radius: 50%;
+}

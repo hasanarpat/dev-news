@@ -1,0 +1,65 @@
+.container {
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 32px;
+  height: 48px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.linkContainer {
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.linkItem {
+  padding: 5px;
+  min-width: 64px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.linkItem:hover {
+  background: white;
+  color: #000;
+}
+
+.signOptions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.25s ease;
+}
+
+.signButton {
+  padding: 5px;
+  border-radius: 20px;
+  min-width: 64px;
+  border: none;
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+.signButton:hover {
+  background: white;
+  color: #000;
+}
+
+.signLink {
+  font-size: 14px;
+  font-weight: 700;
+}

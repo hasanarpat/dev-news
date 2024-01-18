@@ -1,0 +1,20 @@
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  background: #000;
+  font-size: 14px;
+}
+
+.imgContainer {
+  width: 240px;
+  height: 24px;
+  position: relative;
+}
+
+.brands {
+  object-fit: cover;
+  filter: grayscale(1);
+}

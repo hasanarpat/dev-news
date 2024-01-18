@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 48px;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 130px;
+  height: 140px;
+}
+
+.arrow:last-child {
+  right: 0;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 48px;
+  align-items: center;
+}
